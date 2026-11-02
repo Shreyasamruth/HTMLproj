@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+</head>
+<body>
+
+    <center>
+        <h1>Movie Ticket Booking</h1>
+        <hr>
+
+        <h2>Create New Account</h2>
+
+        <form action="login.html" method="get">
+
+            <table cellpadding="10">
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                        <input type="text"
+                               placeholder="Enter Full Name"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="email"
+                               placeholder="Enter Email"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Mobile:</td>
+                    <td>
+                        <input type="tel"
+                               placeholder="Enter Mobile Number"
+                               pattern="[0-9]{10}"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio"
+                               name="gender"
+                               value="male" required> Male
+
+                        <input type="radio"
+                               name="gender"
+                               value="female"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password"
+                               placeholder="Create Password"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td>
+                        <input type="password"
+                               placeholder="Confirm Password"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit"
+                               value="Signup">
+
+                        <input type="reset"
+                               value="Clear">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+
+        <p>
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+
+        <p>
+            <a href="home.html">Back to Home</a>
+        </p>
+
+    </center>
+
+</body>
+</html>
